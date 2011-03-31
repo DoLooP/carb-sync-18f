@@ -20,3 +20,6 @@ http://ww1.microchip.com/downloads/en/DeviceDoc/39632b.pdf
 
 convertisseur rs232 <-> usb ftdi FT232:
 http://www.ftdichip.com/Products/ICs/FT232BM.htm
+
+Capteur de pression absolue:
+http://www.freescale.com/files/sensors/doc/data_sheet/MPXA6115A.pdf
