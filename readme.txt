@@ -23,3 +23,9 @@ http://www.ftdichip.com/Products/ICs/FT232BM.htm
 
 Capteur de pression absolue:
 http://www.freescale.com/files/sensors/doc/data_sheet/MPXA6115A.pdf
+
+****************
+*    AUTRE     *
+****************
+Protocole série:
+http://en.wikipedia.org/wiki/ANSI_escape_code

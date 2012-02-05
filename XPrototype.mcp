@@ -25,12 +25,32 @@ subfolder_lib=
 subfolder_lkr=
 [FILE_SUBFOLDERS]
 file_000=.
+file_001=.
+file_002=.
+file_003=.
+file_004=.
+file_005=.
 [GENERATED_FILES]
 file_000=no
+file_001=no
+file_002=no
+file_003=no
+file_004=no
+file_005=no
 [OTHER_FILES]
 file_000=no
+file_001=no
+file_002=no
+file_003=no
+file_004=no
+file_005=no
 [FILE_INFO]
 file_000=main.c
+file_001=C:\Program Files (x86)\Microchip\mplabc18\v3.37.01\src\pmc_common\ADC\adcbusy.c
+file_002=C:\Program Files (x86)\Microchip\mplabc18\v3.37.01\src\pmc_common\ADC\adcclose.c
+file_003=C:\Program Files (x86)\Microchip\mplabc18\v3.37.01\src\pmc_common\ADC\adcconv.c
+file_004=C:\Program Files (x86)\Microchip\mplabc18\v3.37.01\src\pmc_common\ADC\adcopen.c
+file_005=C:\Program Files (x86)\Microchip\mplabc18\v3.37.01\src\pmc_common\ADC\adcread.c
 [SUITE_INFO]
 suite_guid={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
 suite_state=
