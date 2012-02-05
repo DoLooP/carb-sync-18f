@@ -1,5 +1,5 @@
 MPLINK 4.38, Linker
-Linker Map File - Created Sun Feb 05 22:13:58 2012
+Linker Map File - Created Sun Feb 05 23:49:19 2012
 
                                  Section Info
                   Section       Type    Address   Location Size(Bytes)
@@ -7,69 +7,68 @@ Linker Map File - Created Sun Feb 05 22:13:58 2012
                _entry_scn       code   0x000000    program   0x000006
                    .cinit    romdata   0x000006    program   0x00001a
          .code_vfprintf.o       code   0x000020    program   0x000c22
-             .code_main.o       code   0x000c42    program   0x000284
-               _cinit_scn       code   0x000ec6    program   0x00009e
-           .code_printf.o       code   0x000f64    program   0x000098
-            .code_uopen.o       code   0x000ffc    program   0x00008a
-             .code_putc.o       code   0x001086    program   0x000084
-          .code_fxm3232.o       code   0x00110a    program   0x000070
-                   STRING       code   0x00117a    program   0x000066
-          .code_adcopen.o       code   0x0011e0    program   0x000062
-                     PROG       code   0x001242    program   0x00005a
-         .code_fxd3232u.o       code   0x00129c    program   0x000048
-             D10KTCYXCODE       code   0x0012e4    program   0x00002e
-                    CTYPE       code   0x001312    program   0x000024
-          .code_adcread.o       code   0x001336    program   0x000022
-                    .code       code   0x001358    program   0x000020
-             _startup_scn       code   0x001378    program   0x00001c
-                    STDIO       code   0x001394    program   0x00001c
-              D10TCYXCODE       code   0x0013b0    program   0x000016
-      .romdata_vfprintf.o    romdata   0x0013c6    program   0x000011
-             .stringtable    romdata   0x0013d7    program   0x00000e
-        .romdata___init.o    romdata   0x0013e5    program   0x000000
-    .romdata__user_putc.o    romdata   0x0013e5    program   0x000000
-        .idata_printf.o_i    romdata   0x0013e5    program   0x000000
-        .romdata_printf.o    romdata   0x0013e5    program   0x000000
-        .romdata_stdout.o    romdata   0x0013e5    program   0x000000
-    .idata__user_putc.o_i    romdata   0x0013e5    program   0x000000
-      .idata_vfprintf.o_i    romdata   0x0013e5    program   0x000000
-      .idata_fxd3232u.o_i    romdata   0x0013e5    program   0x000000
-      .romdata_fxd3232u.o    romdata   0x0013e5    program   0x000000
-       .idata_fxm3232.o_i    romdata   0x0013e5    program   0x000000
-       .romdata_fxm3232.o    romdata   0x0013e5    program   0x000000
-          .romdata_putc.o    romdata   0x0013e5    program   0x000000
-          .idata_putc.o_i    romdata   0x0013e5    program   0x000000
-         .idata_c018i.o_i    romdata   0x0013e5    program   0x000000
-         .romdata_c018i.o    romdata   0x0013e5    program   0x000000
-          .romdata_main.o    romdata   0x0013e5    program   0x000000
-       .idata_adcbusy.o_i    romdata   0x0013e5    program   0x000000
-       .romdata_adcbusy.o    romdata   0x0013e5    program   0x000000
-      .idata_adcclose.o_i    romdata   0x0013e5    program   0x000000
-      .romdata_adcclose.o    romdata   0x0013e5    program   0x000000
-       .idata_adcconv.o_i    romdata   0x0013e5    program   0x000000
-       .romdata_adcconv.o    romdata   0x0013e5    program   0x000000
-        .idata___init.o_i    romdata   0x0013e5    program   0x000000
-         .romdata_uopen.o    romdata   0x0013e5    program   0x000000
-         .idata_uopen.o_i    romdata   0x0013e5    program   0x000000
-       .romdata_adcread.o    romdata   0x0013e5    program   0x000000
-       .idata_adcread.o_i    romdata   0x0013e5    program   0x000000
-       .romdata_adcopen.o    romdata   0x0013e5    program   0x000000
-       .idata_adcopen.o_i    romdata   0x0013e5    program   0x000000
-          .code_adcbusy.o       code   0x0013e6    program   0x00000c
-           .code_stdout.o       code   0x0013e6    program   0x000000
-            .code_c018i.o       code   0x0013e6    program   0x000000
-         .code_adcclose.o       code   0x0013f2    program   0x000006
-          .code_adcconv.o       code   0x0013f8    program   0x000004
-       .code__user_putc.o       code   0x0013fc    program   0x000002
-           .code___init.o       code   0x0013fe    program   0x000002
-        .idata_stdout.o_i    romdata   0x001400    program   0x000002
-          .idata_main.o_i    romdata   0x001402    program   0x000002
+             .code_main.o       code   0x000c42    program   0x00030e
+               _cinit_scn       code   0x000f50    program   0x00009e
+           .code_printf.o       code   0x000fee    program   0x000098
+            .code_uopen.o       code   0x001086    program   0x00008a
+             .code_putc.o       code   0x001110    program   0x000084
+          .code_fxm3232.o       code   0x001194    program   0x000070
+                   STRING       code   0x001204    program   0x000066
+          .code_adcopen.o       code   0x00126a    program   0x000062
+                     PROG       code   0x0012cc    program   0x00005a
+         .code_fxd3232u.o       code   0x001326    program   0x000048
+                    CTYPE       code   0x00136e    program   0x000024
+          .code_adcread.o       code   0x001392    program   0x000022
+                    .code       code   0x0013b4    program   0x000020
+             _startup_scn       code   0x0013d4    program   0x00001c
+                    STDIO       code   0x0013f0    program   0x00001c
+             D100TCYXCODE       code   0x00140c    program   0x00001c
+             .stringtable    romdata   0x001428    program   0x000017
+      .idata_fxd3232u.o_i    romdata   0x00143f    program   0x000000
+      .romdata_fxd3232u.o    romdata   0x00143f    program   0x000000
+        .idata_printf.o_i    romdata   0x00143f    program   0x000000
+        .romdata___init.o    romdata   0x00143f    program   0x000000
+        .idata___init.o_i    romdata   0x00143f    program   0x000000
+          .romdata_putc.o    romdata   0x00143f    program   0x000000
+         .romdata_uopen.o    romdata   0x00143f    program   0x000000
+         .idata_uopen.o_i    romdata   0x00143f    program   0x000000
+       .romdata_adcread.o    romdata   0x00143f    program   0x000000
+       .idata_adcread.o_i    romdata   0x00143f    program   0x000000
+       .romdata_adcbusy.o    romdata   0x00143f    program   0x000000
+       .idata_adcbusy.o_i    romdata   0x00143f    program   0x000000
+       .romdata_adcconv.o    romdata   0x00143f    program   0x000000
+       .idata_adcconv.o_i    romdata   0x00143f    program   0x000000
+          .romdata_main.o    romdata   0x00143f    program   0x000000
+              D10TCYXCODE       code   0x001440    program   0x000016
+            .code_c018i.o       code   0x001440    program   0x000000
+      .romdata_vfprintf.o    romdata   0x001456    program   0x000011
+    .idata__user_putc.o_i    romdata   0x001467    program   0x000000
+          .idata_putc.o_i    romdata   0x001467    program   0x000000
+       .romdata_fxm3232.o    romdata   0x001467    program   0x000000
+       .idata_fxm3232.o_i    romdata   0x001467    program   0x000000
+    .romdata__user_putc.o    romdata   0x001467    program   0x000000
+         .romdata_c018i.o    romdata   0x001467    program   0x000000
+         .idata_c018i.o_i    romdata   0x001467    program   0x000000
+       .romdata_adcopen.o    romdata   0x001467    program   0x000000
+       .idata_adcopen.o_i    romdata   0x001467    program   0x000000
+        .romdata_printf.o    romdata   0x001467    program   0x000000
+      .romdata_adcclose.o    romdata   0x001467    program   0x000000
+        .romdata_stdout.o    romdata   0x001467    program   0x000000
+      .idata_vfprintf.o_i    romdata   0x001467    program   0x000000
+      .idata_adcclose.o_i    romdata   0x001467    program   0x000000
+           .code_stdout.o       code   0x001468    program   0x000000
+          .code_adcbusy.o       code   0x001468    program   0x00000c
+         .code_adcclose.o       code   0x001474    program   0x000006
+          .code_adcconv.o       code   0x00147a    program   0x000004
+       .code__user_putc.o       code   0x00147e    program   0x000002
+           .code___init.o       code   0x001480    program   0x000002
+        .idata_stdout.o_i    romdata   0x001482    program   0x000002
+          .idata_main.o_i    romdata   0x001484    program   0x000002
     .config_300000_main.o    romdata   0x300000    program   0x000001
     .config_300001_main.o    romdata   0x300001    program   0x000001
     .config_300003_main.o    romdata   0x300003    program   0x000001
                 MATH_DATA      udata   0x000000       data   0x000014
-                 .tmpdata      udata   0x000014       data   0x000007
-                DELAYDAT2      udata   0x00001b       data   0x000001
+                 .tmpdata      udata   0x000014       data   0x000008
                 DELAYDAT1      udata   0x00001c       data   0x000001
            .udata_c018i.o      udata   0x000060       data   0x00000a
           .idata_stdout.o      idata   0x00006a       data   0x000002
@@ -111,50 +110,51 @@ Linker Map File - Created Sun Feb 05 22:13:58 2012
                               Program Memory Usage 
                                Start         End      
                            ---------   ---------      
-                            0x000000    0x0013e4      
-                            0x0013e6    0x001403      
+                            0x000000    0x00143e      
+                            0x001440    0x001466      
+                            0x001468    0x001485      
                             0x300000    0x300001      
                             0x300003    0x300003      
-            5126 out of 33048 program addresses used, program memory utilization is 15%
+            5255 out of 33048 program addresses used, program memory utilization is 15%
 
 
 
                               Symbols - Sorted by Name
                      Name    Address   Location    Storage File                     
                 ---------  ---------  ---------  --------- ---------                
-                 ADC_call   0x000cc6    program     extern C:\Users\DoLooP\src\carb-sync-18f\main.c
-                  BusyADC   0x0013e6    program     extern C:\Program Files (x86)\Microchip\mplabc18\v3.37.01\src\pmc_common\ADC\adcbusy.c
-                 CloseADC   0x0013f2    program     extern C:\Program Files (x86)\Microchip\mplabc18\v3.37.01\src\pmc_common\ADC\adcclose.c
-               ConvertADC   0x0013f8    program     extern C:\Program Files (x86)\Microchip\mplabc18\v3.37.01\src\pmc_common\ADC\adcconv.c
-                   D10K_1   0x0012f0    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\delays\d10ktcyx.asm
-                    D10Kl   0x0012fc    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\delays\d10ktcyx.asm
-                    D10Kx   0x0012ee    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\delays\d10ktcyx.asm
-                    D10_1   0x0013c0    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\delays\d10tcyx.asm
-                     D10x   0x0013b8    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\delays\d10tcyx.asm
-             Delay10KTCYx   0x0012e4    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\delays\d10ktcyx.asm
-              Delay10TCYx   0x0013b0    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\delays\d10tcyx.asm
-                 FXD3232U   0x00129c    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\fxd3232u.c
-                 FXM1616S   0x001242    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\fxm1616s.asm
-                  FXM3232   0x00110a    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\fxm3232.c
-                  OpenADC   0x0011e0    program     extern C:\Program Files (x86)\Microchip\mplabc18\v3.37.01\src\pmc_common\ADC\adcopen.c
-                OpenUSART   0x000ffc    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\pmc_common\USART\uopen.c
-                  ReadADC   0x001336    program     extern C:\Program Files (x86)\Microchip\mplabc18\v3.37.01\src\pmc_common\ADC\adcread.c
-               TSIGN1616A   0x00128e    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\fxm1616s.asm
-                   _2jEnd   0x0011ca    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\slenpgm.asm
-       _D10KTCYXCODE_0010   0x0012f4    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\delays\d10ktcyx.asm
-       _D10KTCYXCODE_001C   0x001300    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\delays\d10ktcyx.asm
-        _D10TCYXCODE_000A   0x0013ba    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\delays\d10tcyx.asm
-        _D10TCYXCODE_000C   0x0013bc    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\delays\d10tcyx.asm
-        _D10TCYXCODE_000E   0x0013be    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\delays\d10tcyx.asm
+                 ADC_call   0x000d4c    program     extern C:\Users\DoLooP\src\carb-sync-18f\main.c
+                  BusyADC   0x001468    program     extern C:\Program Files (x86)\Microchip\mplabc18\v3.37.01\src\pmc_common\ADC\adcbusy.c
+                 CloseADC   0x001474    program     extern C:\Program Files (x86)\Microchip\mplabc18\v3.37.01\src\pmc_common\ADC\adcclose.c
+               ConvertADC   0x00147a    program     extern C:\Program Files (x86)\Microchip\mplabc18\v3.37.01\src\pmc_common\ADC\adcconv.c
+                   D100_1   0x00141a    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\delays\d100tcyx.asm
+                    D100x   0x001418    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\delays\d100tcyx.asm
+                    D10_1   0x001450    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\delays\d10tcyx.asm
+                     D10x   0x001448    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\delays\d10tcyx.asm
+             Delay100TCYx   0x00140c    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\delays\d100tcyx.asm
+              Delay10TCYx   0x001440    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\delays\d10tcyx.asm
+                 FXD3232U   0x001326    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\fxd3232u.c
+                 FXM1616S   0x0012cc    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\fxm1616s.asm
+                  FXM3232   0x001194    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\fxm3232.c
+                  OpenADC   0x00126a    program     extern C:\Program Files (x86)\Microchip\mplabc18\v3.37.01\src\pmc_common\ADC\adcopen.c
+                OpenUSART   0x001086    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\pmc_common\USART\uopen.c
+                  ReadADC   0x001392    program     extern C:\Program Files (x86)\Microchip\mplabc18\v3.37.01\src\pmc_common\ADC\adcread.c
+               TSIGN1616A   0x001318    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\fxm1616s.asm
+                   _2jEnd   0x001254    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\slenpgm.asm
+       _D100TCYXCODE_0008   0x001414    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\delays\d100tcyx.asm
+       _D100TCYXCODE_0012   0x00141e    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\delays\d100tcyx.asm
+       _D100TCYXCODE_0018   0x001424    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\delays\d100tcyx.asm
+        _D10TCYXCODE_000A   0x00144a    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\delays\d10tcyx.asm
+        _D10TCYXCODE_000C   0x00144c    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\delays\d10tcyx.asm
+        _D10TCYXCODE_000E   0x00144e    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\delays\d10tcyx.asm
+       ___return_lbl00000   0x00136c    program     static                          
        ___return_lbl00000   0x000004    program     static                          
-       ___return_lbl00000   0x0012e2    program     static                          
-       ___return_lbl00000   0x001178    program     static                          
-       ___return_lbl00001   0x001392    program     static                          
-       ___return_lbl00002   0x000f62    program     static                          
+       ___return_lbl00000   0x001202    program     static                          
+       ___return_lbl00001   0x0013ee    program     static                          
+       ___return_lbl00002   0x000fec    program     static                          
                __config_0   0x300000    program     static C:\Users\DoLooP\src\carb-sync-18f\main.c
                __config_1   0x300001    program     static C:\Users\DoLooP\src\carb-sync-18f\main.c
                __config_2   0x300003    program     static C:\Users\DoLooP\src\carb-sync-18f\main.c
-                   __init   0x0013fe    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\__init.c
+                   __init   0x001480    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\__init.c
                    __pa_0   0x000960    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
                    __pa_1   0x000968    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
                   __pa_10   0x000a1c    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
@@ -202,50 +202,53 @@ Linker Map File - Created Sun Feb 05 22:13:58 2012
                    __pa_7   0x0009ce    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
                    __pa_8   0x0009da    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
                    __pa_9   0x0009fc    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
-               __string_0   0x0013e2    program     static C:\Users\DoLooP\src\carb-sync-18f\main.c
-               __string_1   0x0013df    program     static C:\Users\DoLooP\src\carb-sync-18f\main.c
-               __string_2   0x0013dc    program     static C:\Users\DoLooP\src\carb-sync-18f\main.c
-               __string_3   0x0013d7    program     static C:\Users\DoLooP\src\carb-sync-18f\main.c
+               __string_0   0x00143c    program     static C:\Users\DoLooP\src\carb-sync-18f\main.c
+               __string_1   0x001437    program     static C:\Users\DoLooP\src\carb-sync-18f\main.c
+               __string_2   0x001430    program     static C:\Users\DoLooP\src\carb-sync-18f\main.c
+               __string_3   0x00142d    program     static C:\Users\DoLooP\src\carb-sync-18f\main.c
+               __string_4   0x001428    program     static C:\Users\DoLooP\src\carb-sync-18f\main.c
               __tmplbl_42   0x000af6    program     static                          
               __tmplbl_43   0x00093e    program     static                          
               __tmplbl_44   0x000924    program     static                          
               __tmplbl_85   0x000076    program     static                          
-            __zero_memory   0x001358    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F2550.asm
-                _do_cinit   0x000ec6    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\startup\c018i.c
+            __zero_memory   0x0013b4    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F2550.asm
+                _do_cinit   0x000f50    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\startup\c018i.c
                    _entry   0x000000    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\startup\c018i.c
-                   _false   0x0012de    program     static                          
-                 _startup   0x001378    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\startup\c018i.c
-              _usart_putc   0x001394    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\pmc_common\USART\_usartpc.asm
-               _user_putc   0x0013fc    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\_user_putc.c
-                      cls   0x000c84    program     extern C:\Users\DoLooP\src\carb-sync-18f\main.c
-                compare_l   0x00136e    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F2550.asm
-                copy_loop   0x000f38    program     static                          
-            copy_one_byte   0x000f3e    program     static                          
-                     done   0x000f62    program     static                          
-             done_copying   0x000f4c    program     static                          
-                   goto00   0x000c42    program     extern C:\Users\DoLooP\src\carb-sync-18f\main.c
-                  isdigit   0x001312    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\isdigit.asm
-                     jEnd   0x001194    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\strlen.asm
-                     jEnd   0x0011cc    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\slenpgm.asm
-                    jLoop   0x00118a    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\strlen.asm
-                    jLoop   0x0011b4    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\slenpgm.asm
-                   jMatch   0x001332    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\isdigit.asm
-                 jNoMatch   0x001334    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\isdigit.asm
-                     loop   0x0013a4    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\pmc_common\USART\_usartpc.asm
-                     loop   0x001388    program     static                          
-                     loop   0x0012aa    program     static                          
-                   loop_h   0x001366    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F2550.asm
-                   loop_l   0x001370    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F2550.asm
-                     main   0x000d7a    program     extern C:\Users\DoLooP\src\carb-sync-18f\main.c
-                   printf   0x000f64    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\printf.c
-                     putc   0x001086    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\putc.c
-                 s_digits   0x0013c6    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
+                   _false   0x001368    program     static                          
+                 _startup   0x0013d4    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\startup\c018i.c
+              _usart_putc   0x0013f0    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\pmc_common\USART\_usartpc.asm
+               _user_putc   0x00147e    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\_user_putc.c
+                      cls   0x000d0a    program     extern C:\Users\DoLooP\src\carb-sync-18f\main.c
+                compare_l   0x0013ca    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F2550.asm
+                copy_loop   0x000fc2    program     static                          
+            copy_one_byte   0x000fc8    program     static                          
+                     done   0x000fec    program     static                          
+             done_copying   0x000fd6    program     static                          
+                   goto00   0x000cfe    program     extern C:\Users\DoLooP\src\carb-sync-18f\main.c
+                   gotoXY   0x000c84    program     extern C:\Users\DoLooP\src\carb-sync-18f\main.c
+               hideCursor   0x000c42    program     extern C:\Users\DoLooP\src\carb-sync-18f\main.c
+                  isdigit   0x00136e    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\isdigit.asm
+                     jEnd   0x00121e    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\strlen.asm
+                     jEnd   0x001256    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\slenpgm.asm
+                    jLoop   0x00123e    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\slenpgm.asm
+                    jLoop   0x001214    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\strlen.asm
+                   jMatch   0x00138e    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\isdigit.asm
+                 jNoMatch   0x001390    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\isdigit.asm
+                     loop   0x001334    program     static                          
+                     loop   0x0013e4    program     static                          
+                     loop   0x001400    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\pmc_common\USART\_usartpc.asm
+                   loop_h   0x0013c2    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F2550.asm
+                   loop_l   0x0013cc    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F2550.asm
+                     main   0x000e00    program     extern C:\Users\DoLooP\src\carb-sync-18f\main.c
+                   printf   0x000fee    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\printf.c
+                     putc   0x001110    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\putc.c
+                 s_digits   0x001456    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
             s_put_n_chars   0x000020    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
-                   strlen   0x00117a    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\strlen.asm
-                strlenpgm   0x001196    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\slenpgm.asm
-                     test   0x000ee0    program     static                          
+                   strlen   0x001204    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\strlen.asm
+                strlenpgm   0x001220    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\slenpgm.asm
+                     test   0x000f6a    program     static                          
                  vfprintf   0x00004c    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
-               zero_block   0x001366    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F2550.asm
+               zero_block   0x0013c2    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F2550.asm
                    ADCON0   0x000fc2       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F2550.asm
                ADCON0bits   0x000fc2       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F2550.asm
                    ADCON1   0x000fc1       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F2550.asm
@@ -286,7 +289,6 @@ Linker Map File - Created Sun Feb 05 22:13:58 2012
                      DDRC   0x000f94       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F2550.asm
                  DDRCbits   0x000f94       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F2550.asm
             DelayCounter1   0x00001c       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\delays\delayd1.asm
-            DelayCounter2   0x00001b       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\delays\delayd2.asm
                   ECCP1AS   0x000fb6       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F2550.asm
               ECCP1ASbits   0x000fb6       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F2550.asm
                  ECCP1DEL   0x000fb7       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F2550.asm
@@ -575,72 +577,75 @@ Linker Map File - Created Sun Feb 05 22:13:58 2012
                   __pa_44   0x000c22    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
                   __pa_45   0x000c2c    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
                   __pa_46   0x000c38    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
-                   goto00   0x000c42    program     extern C:\Users\DoLooP\src\carb-sync-18f\main.c
-                      cls   0x000c84    program     extern C:\Users\DoLooP\src\carb-sync-18f\main.c
-                 ADC_call   0x000cc6    program     extern C:\Users\DoLooP\src\carb-sync-18f\main.c
-                     main   0x000d7a    program     extern C:\Users\DoLooP\src\carb-sync-18f\main.c
-                _do_cinit   0x000ec6    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\startup\c018i.c
-                     test   0x000ee0    program     static                          
-                copy_loop   0x000f38    program     static                          
-            copy_one_byte   0x000f3e    program     static                          
-             done_copying   0x000f4c    program     static                          
-                     done   0x000f62    program     static                          
-       ___return_lbl00002   0x000f62    program     static                          
-                   printf   0x000f64    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\printf.c
-                OpenUSART   0x000ffc    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\pmc_common\USART\uopen.c
-                     putc   0x001086    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\putc.c
-                  FXM3232   0x00110a    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\fxm3232.c
-       ___return_lbl00000   0x001178    program     static                          
-                   strlen   0x00117a    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\strlen.asm
-                    jLoop   0x00118a    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\strlen.asm
-                     jEnd   0x001194    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\strlen.asm
-                strlenpgm   0x001196    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\slenpgm.asm
-                    jLoop   0x0011b4    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\slenpgm.asm
-                   _2jEnd   0x0011ca    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\slenpgm.asm
-                     jEnd   0x0011cc    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\slenpgm.asm
-                  OpenADC   0x0011e0    program     extern C:\Program Files (x86)\Microchip\mplabc18\v3.37.01\src\pmc_common\ADC\adcopen.c
-                 FXM1616S   0x001242    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\fxm1616s.asm
-               TSIGN1616A   0x00128e    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\fxm1616s.asm
-                 FXD3232U   0x00129c    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\fxd3232u.c
-                     loop   0x0012aa    program     static                          
-                   _false   0x0012de    program     static                          
-       ___return_lbl00000   0x0012e2    program     static                          
-             Delay10KTCYx   0x0012e4    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\delays\d10ktcyx.asm
-                    D10Kx   0x0012ee    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\delays\d10ktcyx.asm
-                   D10K_1   0x0012f0    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\delays\d10ktcyx.asm
-       _D10KTCYXCODE_0010   0x0012f4    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\delays\d10ktcyx.asm
-                    D10Kl   0x0012fc    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\delays\d10ktcyx.asm
-       _D10KTCYXCODE_001C   0x001300    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\delays\d10ktcyx.asm
-                  isdigit   0x001312    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\isdigit.asm
-                   jMatch   0x001332    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\isdigit.asm
-                 jNoMatch   0x001334    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\isdigit.asm
-                  ReadADC   0x001336    program     extern C:\Program Files (x86)\Microchip\mplabc18\v3.37.01\src\pmc_common\ADC\adcread.c
-            __zero_memory   0x001358    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F2550.asm
-                   loop_h   0x001366    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F2550.asm
-               zero_block   0x001366    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F2550.asm
-                compare_l   0x00136e    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F2550.asm
-                   loop_l   0x001370    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F2550.asm
-                 _startup   0x001378    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\startup\c018i.c
-                     loop   0x001388    program     static                          
-       ___return_lbl00001   0x001392    program     static                          
-              _usart_putc   0x001394    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\pmc_common\USART\_usartpc.asm
-                     loop   0x0013a4    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\pmc_common\USART\_usartpc.asm
-              Delay10TCYx   0x0013b0    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\delays\d10tcyx.asm
-                     D10x   0x0013b8    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\delays\d10tcyx.asm
-        _D10TCYXCODE_000A   0x0013ba    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\delays\d10tcyx.asm
-        _D10TCYXCODE_000C   0x0013bc    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\delays\d10tcyx.asm
-        _D10TCYXCODE_000E   0x0013be    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\delays\d10tcyx.asm
-                    D10_1   0x0013c0    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\delays\d10tcyx.asm
-                 s_digits   0x0013c6    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
-               __string_3   0x0013d7    program     static C:\Users\DoLooP\src\carb-sync-18f\main.c
-               __string_2   0x0013dc    program     static C:\Users\DoLooP\src\carb-sync-18f\main.c
-               __string_1   0x0013df    program     static C:\Users\DoLooP\src\carb-sync-18f\main.c
-               __string_0   0x0013e2    program     static C:\Users\DoLooP\src\carb-sync-18f\main.c
-                  BusyADC   0x0013e6    program     extern C:\Program Files (x86)\Microchip\mplabc18\v3.37.01\src\pmc_common\ADC\adcbusy.c
-                 CloseADC   0x0013f2    program     extern C:\Program Files (x86)\Microchip\mplabc18\v3.37.01\src\pmc_common\ADC\adcclose.c
-               ConvertADC   0x0013f8    program     extern C:\Program Files (x86)\Microchip\mplabc18\v3.37.01\src\pmc_common\ADC\adcconv.c
-               _user_putc   0x0013fc    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\_user_putc.c
-                   __init   0x0013fe    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\__init.c
+               hideCursor   0x000c42    program     extern C:\Users\DoLooP\src\carb-sync-18f\main.c
+                   gotoXY   0x000c84    program     extern C:\Users\DoLooP\src\carb-sync-18f\main.c
+                   goto00   0x000cfe    program     extern C:\Users\DoLooP\src\carb-sync-18f\main.c
+                      cls   0x000d0a    program     extern C:\Users\DoLooP\src\carb-sync-18f\main.c
+                 ADC_call   0x000d4c    program     extern C:\Users\DoLooP\src\carb-sync-18f\main.c
+                     main   0x000e00    program     extern C:\Users\DoLooP\src\carb-sync-18f\main.c
+                _do_cinit   0x000f50    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\startup\c018i.c
+                     test   0x000f6a    program     static                          
+                copy_loop   0x000fc2    program     static                          
+            copy_one_byte   0x000fc8    program     static                          
+             done_copying   0x000fd6    program     static                          
+                     done   0x000fec    program     static                          
+       ___return_lbl00002   0x000fec    program     static                          
+                   printf   0x000fee    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\printf.c
+                OpenUSART   0x001086    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\pmc_common\USART\uopen.c
+                     putc   0x001110    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\putc.c
+                  FXM3232   0x001194    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\fxm3232.c
+       ___return_lbl00000   0x001202    program     static                          
+                   strlen   0x001204    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\strlen.asm
+                    jLoop   0x001214    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\strlen.asm
+                     jEnd   0x00121e    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\strlen.asm
+                strlenpgm   0x001220    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\slenpgm.asm
+                    jLoop   0x00123e    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\slenpgm.asm
+                   _2jEnd   0x001254    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\slenpgm.asm
+                     jEnd   0x001256    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\slenpgm.asm
+                  OpenADC   0x00126a    program     extern C:\Program Files (x86)\Microchip\mplabc18\v3.37.01\src\pmc_common\ADC\adcopen.c
+                 FXM1616S   0x0012cc    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\fxm1616s.asm
+               TSIGN1616A   0x001318    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\fxm1616s.asm
+                 FXD3232U   0x001326    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\fxd3232u.c
+                     loop   0x001334    program     static                          
+                   _false   0x001368    program     static                          
+       ___return_lbl00000   0x00136c    program     static                          
+                  isdigit   0x00136e    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\isdigit.asm
+                   jMatch   0x00138e    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\isdigit.asm
+                 jNoMatch   0x001390    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\isdigit.asm
+                  ReadADC   0x001392    program     extern C:\Program Files (x86)\Microchip\mplabc18\v3.37.01\src\pmc_common\ADC\adcread.c
+            __zero_memory   0x0013b4    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F2550.asm
+                   loop_h   0x0013c2    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F2550.asm
+               zero_block   0x0013c2    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F2550.asm
+                compare_l   0x0013ca    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F2550.asm
+                   loop_l   0x0013cc    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F2550.asm
+                 _startup   0x0013d4    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\startup\c018i.c
+                     loop   0x0013e4    program     static                          
+       ___return_lbl00001   0x0013ee    program     static                          
+              _usart_putc   0x0013f0    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\pmc_common\USART\_usartpc.asm
+                     loop   0x001400    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\pmc_common\USART\_usartpc.asm
+             Delay100TCYx   0x00140c    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\delays\d100tcyx.asm
+       _D100TCYXCODE_0008   0x001414    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\delays\d100tcyx.asm
+                    D100x   0x001418    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\delays\d100tcyx.asm
+                   D100_1   0x00141a    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\delays\d100tcyx.asm
+       _D100TCYXCODE_0012   0x00141e    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\delays\d100tcyx.asm
+       _D100TCYXCODE_0018   0x001424    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\delays\d100tcyx.asm
+               __string_4   0x001428    program     static C:\Users\DoLooP\src\carb-sync-18f\main.c
+               __string_3   0x00142d    program     static C:\Users\DoLooP\src\carb-sync-18f\main.c
+               __string_2   0x001430    program     static C:\Users\DoLooP\src\carb-sync-18f\main.c
+               __string_1   0x001437    program     static C:\Users\DoLooP\src\carb-sync-18f\main.c
+               __string_0   0x00143c    program     static C:\Users\DoLooP\src\carb-sync-18f\main.c
+              Delay10TCYx   0x001440    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\delays\d10tcyx.asm
+                     D10x   0x001448    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\delays\d10tcyx.asm
+        _D10TCYXCODE_000A   0x00144a    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\delays\d10tcyx.asm
+        _D10TCYXCODE_000C   0x00144c    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\delays\d10tcyx.asm
+        _D10TCYXCODE_000E   0x00144e    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\delays\d10tcyx.asm
+                    D10_1   0x001450    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\delays\d10tcyx.asm
+                 s_digits   0x001456    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
+                  BusyADC   0x001468    program     extern C:\Program Files (x86)\Microchip\mplabc18\v3.37.01\src\pmc_common\ADC\adcbusy.c
+                 CloseADC   0x001474    program     extern C:\Program Files (x86)\Microchip\mplabc18\v3.37.01\src\pmc_common\ADC\adcclose.c
+               ConvertADC   0x00147a    program     extern C:\Program Files (x86)\Microchip\mplabc18\v3.37.01\src\pmc_common\ADC\adcconv.c
+               _user_putc   0x00147e    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\_user_putc.c
+                   __init   0x001480    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\__init.c
                __config_0   0x300000    program     static C:\Users\DoLooP\src\carb-sync-18f\main.c
                __config_1   0x300001    program     static C:\Users\DoLooP\src\carb-sync-18f\main.c
                __config_2   0x300003    program     static C:\Users\DoLooP\src\carb-sync-18f\main.c
@@ -677,7 +682,6 @@ Linker Map File - Created Sun Feb 05 22:13:58 2012
                   __tmp_0   0x000014       data     static C:\Program Files (x86)\Microchip\mplabc18\v3.37.01\src\pmc_common\ADC\adcread.c
                   __tmp_0   0x000014       data     static C:\Program Files (x86)\Microchip\mplabc18\v3.37.01\src\pmc_common\ADC\adcopen.c
                   __tmp_0   0x000014       data     static C:\Users\DoLooP\src\carb-sync-18f\main.c
-            DelayCounter2   0x00001b       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\delays\delayd2.asm
             DelayCounter1   0x00001c       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\delays\delayd1.asm
                      prom   0x000060       data     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\startup\c018i.c
                 curr_byte   0x000063       data     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\startup\c018i.c

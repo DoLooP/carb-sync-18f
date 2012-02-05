@@ -16,14 +16,27 @@
 
 const char* CSI = "\x1b[";
 
-int ADC_call(char );
+unsigned int ADC_call(char );
 void cls();
 void goto00();
+void hideCursor();
+
+void hideCursor()
+{
+	printf(CSI);
+	printf("?25l");	
+}
+
+
+void gotoXY(char X,char Y)
+{
+	printf(CSI);
+	printf("%i;%iH",X,Y);
+}
 
 void goto00()
 {
-	printf(CSI);
-	printf(";H");
+	gotoXY(0,0);
 }
 
 void cls()
@@ -32,7 +45,7 @@ void cls()
 	printf("2J");	
 }
 
-int ADC_call(char c)
+unsigned int ADC_call(char c)
 {
 	int adc;
 	char ADC_CHAN;
@@ -45,7 +58,7 @@ int ADC_call(char c)
 	else
 		ADC_CHAN = ADC_CH12;
 
-	OpenADC(ADC_FOSC_2 & ADC_LEFT_JUST & ADC_20_TAD
+	OpenADC(ADC_FOSC_32 & ADC_LEFT_JUST & ADC_2_TAD
 	, ADC_CHAN & ADC_VREFPLUS_VDD & ADC_VREFMINUS_VSS
 	, 0);	
 	Delay10TCYx(5);  // Delay for 5us
@@ -71,19 +84,19 @@ void main()
 
 
 	cls();
+	hideCursor();
 	while(1)
 	{
-		int i;
+		int i, carb0,carb1,carb2,carb3;
 	    LEDPin = ~LEDPin;//Toggle LED Pin
-		printf("%i\r\n", ADC_call(0));
-		printf("%i\r\n", ADC_call(1));
-		printf("%i\r\n", ADC_call(2));
-		printf("%i\r\n", ADC_call(3));
-		goto00();		
+		carb0 = ADC_call(0);
+		carb1 = ADC_call(1);
+		carb2 = ADC_call(2);
+		carb3 = ADC_call(3);
 
 		i = 1;
 		while(i--)
-			Delay10KTCYx(0);
+			Delay100TCYx(5);
 	}
 
 }
